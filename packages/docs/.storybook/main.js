@@ -11,8 +11,8 @@ function getAbsolutePath(value) {
 /** @type { import('@storybook/react-vite').StorybookConfig } */
 const config = {
   stories: [
-    "../src/stories/**/*.mdx",
-    "../src/stories/**/*.stories.@(js|jsx|mjs|ts|tsx)",
+    "../src/stories/**/*.stories.tsx",
+    "../src/pages/**/*.stories.mdx",
   ],
   addons: [
     getAbsolutePath("@storybook/addon-links"),
