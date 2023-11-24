@@ -1,22 +1,21 @@
 {
-  "name": "@ignite-ui/tokens",
-  "version": "1.0.0",
+  "name": "@alvaroorlando-ignite-ui/tokens",
+  "version": "2.0.0",
   "description": "",
   "main": "./dist/index.js",
-  "module":"./dist/index.mjs",
-  "types":"./dist/index.d.ts",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "build": "tsup src/index.ts --format esm, cjs --dts",
     "dev": "tsup src/index.ts --format esm, cjs --dts --watch",
-    "lint": "eslint src/**/*.ts* --fix" 
-
+    "lint": "eslint src/**/*.ts* --fix"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@ignite-ui/ts-config": "*",
-    "@ignite-ui/eslint-config": "*",
+    "@alvaroorlando-ignite-ui/ts-config": "*",
+    "@alvaroorlando-ignite-ui/eslint-config": "*",
     "tsup": "^7.3.0",
     "typescript": "^5.2.2"
   }
