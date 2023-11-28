@@ -1,6 +1,6 @@
 {
   "name": "@alvaroorlando-ignite-ui/react",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -15,7 +15,7 @@
   "license": "MIT",
   "devDependencies": {
     "@alvaroorlando-ignite-ui/eslint-config": "*",
-    "@alvaroorlando-ignite-ui/tokens": "^2.0.0",
+    "@alvaroorlando-ignite-ui/tokens": "^2.2.0",
     "@alvaroorlando-ignite-ui/ts-config": "*",
     "@types/react": "^18.2.37",
     "@types/react-dom": "^18.2.15",
